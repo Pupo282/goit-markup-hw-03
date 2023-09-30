@@ -234,8 +234,11 @@ margin-bottom: 72px;
 }
 .team-item {
   width: calc((100%-72px)/4)
-  border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
+     background-color: #FFFFFF;
+    padding: 120px 0;
+}
+.container-Mark-Designer{
+  border-radius: 0px 0px 4px 4px; 
 }
 .team-subtitle {
     background-color: #FFFFFF;
@@ -266,7 +269,6 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02;
 text-transform: capitalize;
-margin-top: 240px;
 margin-bottom: 72px;
 }
 .porfolio-list {
