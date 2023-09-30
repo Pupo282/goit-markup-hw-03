@@ -223,7 +223,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 8px;
+margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -237,7 +237,7 @@ margin-bottom: 8px;
      background-color: #FFFFFF;
     padding: 120px 0;
 }
-.container-worker{
+.team-list .team-item{
   border-radius: 0px 0px 4px 4px; 
 }
 .container-Tom-Developer
