@@ -3,15 +3,68 @@ body {
     color: #434455 ;
     background-color:  #FFFFFF
 }
-ul {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
   }
-  a {text-decoration: none;}
+    a {
+        text-decoration: none;
+        color: currentColor;
+      }
+      button {
+        cursor: pointer;
+      }
+      
+      img {
+        display: block;
+      }
+      
+      address {
+        font-style: normal;
+      }
+      
+      .container {
+        width: 1410px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        margin: 0 auto;
+      }
+
+ 
 
 
   .header {
+    padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 156px;
+  margin-left: 156px;
+  }
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+  flex-grow: 1;
+  justify-content: space-between
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
+  
+  
 }
 .header-logo {
     color:#4D5AE5;
@@ -20,7 +73,10 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase;
+text-transform: uppercase; 
+padding-top: 25.5px;
+padding-bottom: 25.5px;
+margin-right: 76px;
 }
  .section-title-raleway {
     color:#2e2f42 
@@ -28,6 +84,9 @@ text-transform: uppercase;
   }
   
 .header-menu-list {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 .header-menu-item {
 }
@@ -37,6 +96,9 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+gap: 40px;
+  align-items: flex-start;
+  
 }
 .header-menu-link:hover {
     color:#404BBF;
@@ -46,8 +108,12 @@ letter-spacing: 0.02em;
 }
 .header-soc{
   font-style: normal; 
+  
 }
 .header-soc-list {
+  display: flex;
+  gap: 40px;
+  
 }
 .header-soc-item {
     color:#434455;
@@ -76,6 +142,8 @@ font-size: 56px;
 font-weight: 500;
 line-height: 1.07;
 letter-spacing: 0.02em;
+align-content:center;
+;
 }
 .hero-btn {
     background-color:#4D5AE5;
@@ -85,7 +153,14 @@ letter-spacing: 0.02em;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        padding: 16px 32px ;
+        border: none;
+        margin: 0 auto;
+  display: block;
+  margin-top: 48px ;
+       
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404BBF;
@@ -99,10 +174,14 @@ letter-spacing: 0.02em;
 .advantages {
 }
 .advantages-title {
+  
 }
 .advantages-list {
+  display: flex;
+  gap:24px;
 }
 .advantages-item {
+width: calc((100% - 72px ) / 4);
 }
 .advantages-subtitle {
     color:#2E2F42;
@@ -133,8 +212,14 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px ) / 4)
+  
+  
 }
 .team-item {
     background-color: #FFFFFF;
@@ -168,10 +253,18 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02;
 text-transform: capitalize;
+margin-top: 240px;
+margin-bottom: 72px;
 }
 .porfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+  
+  width: calc((100% - 96px ) / 6)
 }
 .portfolio-item{
+  flex-wrap: wrap;
 
 }
 .portfolio-subtitle {
