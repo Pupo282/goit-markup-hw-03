@@ -223,7 +223,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 72px;
+margin-bottom: 8px;
 }
 .team-list {
   display: flex;
@@ -237,9 +237,10 @@ margin-bottom: 72px;
      background-color: #FFFFFF;
     padding: 120px 0;
 }
-.container-Mark-Designer{
+.container-Mark-Designer, .container-Tom-Developer, .container-Camila-Marketing, .container-Daniel-UI-Designer{
   border-radius: 0px 0px 4px 4px; 
 }
+.container-Tom-Developer
 .team-subtitle {
     background-color: #FFFFFF;
     color: #2E2F42;
