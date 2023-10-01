@@ -338,11 +338,12 @@ text-transform: uppercase;
 }
 .footer-logo-text{
     color: #f4f4fd 
-    display: inline-block; 
-    margin-bottom: 16px;
-}
+     
+    }
 .section-title-raleway {
 }
+
+
 .footer-text {
 color: #f4f4fd;
 font-size: 16px;
