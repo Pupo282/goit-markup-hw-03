@@ -216,6 +216,7 @@ letter-spacing: 0.02em;
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0
 }
 .team-logo {
         color:#2E2F42;
@@ -283,6 +284,7 @@ line-height: 1.11;
 letter-spacing: 0.02;
 text-transform: capitalize;
 margin-bottom: 72px;
+padding-top: 120px;
 }
 .porfolio-list {
   display: flex;
