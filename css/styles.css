@@ -274,7 +274,9 @@ padding-top: 8px;
 
 
 
-
+.Our-Portfolio{
+  padding-top: 120px;
+}
 .portfolio {
 color:#2E2F42;
 text-align: center;
@@ -284,7 +286,7 @@ line-height: 1.11;
 letter-spacing: 0.02;
 text-transform: capitalize;
 margin-bottom: 72px;
-padding-top: 120px;
+
 }
 .porfolio-list {
   display: flex;
