@@ -301,6 +301,8 @@ margin-bottom: 72px;
 }
 .text-portfolio {
   padding: 32px 16px
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
 }
 .portfolio-subtitle {
     color:#2E2F42;
