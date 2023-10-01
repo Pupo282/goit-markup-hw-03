@@ -301,8 +301,8 @@ margin-bottom: 72px;
 }
 .text-portfolio {
   padding: 32px 16px
-  border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
+  
+  
 }
 .portfolio-subtitle {
     color:#2E2F42;
@@ -325,6 +325,7 @@ letter-spacing: 0.02em;
 
 .footer {
     background-color:#2E2F42;
+    padding: 100px 0;
 }
 .footer-logo {
     color: #4d5ae5;
@@ -337,6 +338,8 @@ text-transform: uppercase;
 }
 .footer-logo-text{
     color: #f4f4fd 
+    display: inline-block; 
+    margin-bottom: 16px;
 }
 .section-title-raleway {
 }
